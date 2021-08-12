@@ -48,7 +48,7 @@ int main(){
         bool status = login();
 
         if (status == true){
-            cout << "login success";
+            cout << "login success!";
             return 0;
         }else{
             cout << "login fail";
